@@ -1,6 +1,6 @@
 {
   "name": "@medwing/react-tooltip",
-  "version": "4.2.6",
+  "version": "0.0.0",
   "description": "react tooltip component",
   "main": "dist/index.js",
   "types": "dist/react-tooltip.d.ts",
@@ -27,6 +27,9 @@
     "cm": "git cz",
     "semantic-release": "semantic-release",
     "prepare": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "config": {
     "commitizen": {
